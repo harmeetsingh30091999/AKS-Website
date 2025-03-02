@@ -1,0 +1,86 @@
+@media (max-width: 1150px){
+	.small-container{
+	background-position: 38% -7px;
+	
+	}
+	.pro3{
+	display:block;
+	height:542px;
+	width:582px;
+	margin:auto;
+	margin-top:10px;
+	}
+	.main-section1{
+	height: 4770px;
+}
+
+	
+}
+
+@media (max-width: 700px){
+	.pro3{
+	width:550px;
+	}
+}
+@media (max-width: 700px){
+	
+	.boots-image {
+    height: 165px;
+    width: 217px;
+	}
+	
+	.product1 {
+    positio: relative;
+    height: 213px;
+    width: 214px;
+    background-color: grey;
+    margin-right: 14px;
+	}
+	.pro3{
+	width: 445px;
+    height: 416px;
+    }
+    .main-block {
+    width: 99%;
+    }
+    .heading1 {
+    position: absolute;
+    left: 71px;
+    top: 172px;
+    }
+    .main-section1 {
+    height: 3754px;
+}
+    .main-block{
+    height:93%;
+    }
+}
+@media (max-width: 440px){
+	
+	.small-container-block {
+    width: 65vw;
+    left: 51px;
+    z-index: 0;
+    }
+@media (max-width: 440px){
+	.boots-image {
+    height: 125px;
+    width: 150px;
+	}
+	.product1 {
+    height: 160px;
+    width: 150px;
+	}
+	.heading1 {
+    position: absolute;
+    left: 49px;
+    top: 129px;
+    font-size: 20px;
+	}
+	.pro3 {
+    width: 322px;
+    height: 312px;
+}
+   .main-section1 {
+    height: 2907px;
+}

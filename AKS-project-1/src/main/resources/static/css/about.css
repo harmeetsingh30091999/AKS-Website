@@ -1,0 +1,142 @@
+.main-section12{
+	height:310%;
+}
+.small-container-block1{
+	position:absolute;
+	height:70px;
+	width:40vw;
+	top:86px;
+	left:125px;
+	background-color:white;
+	opacity:0.8;
+	display:flex;
+	align-items:center;
+	z-index:1;
+	border-radius:3px;
+}
+.small-container3{
+	height:300px;
+	width:100%;
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/wallpaper72.jpg);
+	background-position:30% -170px;
+	background-size:cover;
+}
+.about-main-section{
+	height:100%;
+	width:100%;
+	/* background-color:red; */ 
+}
+.about-container1{
+	top:100px;
+	width:85%;
+	height:480px;
+	background-color:white;
+	margin:auto;
+	display:flex;
+	
+}
+.about-container2{
+	width:85%;
+	height:800px;
+ 	 /* background-color:green */;  
+	z-index:1;
+	top:160px;
+	position:relative;
+	margin:auto;
+}
+.about-content1{
+	width:50%;
+	height:400px;
+ 	background-color:white; 
+
+}
+.about-image1{
+	position:absolute;
+	width:490px;
+	height:400px;
+	top:0px;
+	left:54%;
+	/*
+	background-image:url('../images/horse image1.png');
+	background-repeat:no-repeat;
+	background-position:80% -40px; */
+}
+.image-size1{
+	height:700px;
+	width:700px;
+}
+.heading-aboutpage{
+	position:absolute;
+	display:flex;
+	justify-content:center;
+	width:100%;
+	top:5px;
+}
+.about-para1{
+	top:70px;
+	width:650px;
+	margin:auto;
+}
+.about-small-container1{
+	position:absolute;
+	height:300px;
+	width:100%;
+	 /* background-color:yellow; */ 
+	top:250px;
+	display:flex;
+}
+.about-small-cont{
+	width:50%;
+	 /* background-color:black;  */
+	height:280px;
+	margin:8px;
+}
+.about-small-container2{
+position:absolute;
+	height:300px;
+	width:100%;
+	/*  background-color:yellow; */ 
+	top:500px;
+	display:flex;	
+}
+.about-container3{
+	position:relative;
+	top:220px;
+	height:400px;
+	width:100%;
+	 background-color:rgb(250, 248, 232); 
+	display:flex;
+}
+.about-left-container1{
+	top:0;
+	left:0;
+	height:400px;
+	width:50%;
+	/* background-color:yellow; */
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.about-right-container1{
+	top:0px;
+	left:0px;
+	height:400px;
+	width:50%;
+	/* background-color:grey; */
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.about-product-images{
+	width:200x;
+	height:300px;
+	z-index:2;
+	border-radius:3px;
+}
+.about-product-images:hover{
+	cursor:pointer;
+	z-index:0;
+	/* background-color:rgb(240, 237, 218); */
+	background-color:grey;
+	padding-top:10px;
+}

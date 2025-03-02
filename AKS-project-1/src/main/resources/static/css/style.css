@@ -1,0 +1,437 @@
+html{
+	scroll-behavior: smooth;
+}
+
+#preloader{
+	background:#000 url('../images/gifimage1.gif') no-repeat center center;
+	height:100%;
+	width:100%;
+	position:fixed;
+	z-index:100;
+	background-size:30%;
+}
+
+/* .loader{
+        width: 160px;
+        height: 160px;
+        margin: 50px auto 0;
+        border-top: 16px solid #ff6326;
+        border-right: 16px solid transparent;
+        border-radius: 50%;
+        position: relative;
+        animation: round 1s linear infinite;
+    }
+ .loader:before{
+        content: '';
+        background-color: #ff6326;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+    }
+    @keyframes round{
+        100%{ transform: rotate(360deg); }
+    }
+<div class="open_grepper_editor" title="Edit & Save To Grepper"></div>
+*{
+     
+     -webkit-font-smoothing: antialiased;
+     -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+ } */  
+
+
+ .collapse{
+ /* transition-delay:1s; */
+ }
+  
+.top-nav{
+	height:80px;
+	width:100%;
+	background-color:rgb(31, 30, 6);
+	position::relative;
+}
+.navbar-lname{
+	width:202px;
+	height:60px;
+}
+.logo-image{
+	width:90px;
+	height:auto;
+	left:50px;
+}
+.logo-image:hover{
+	cursor:pointer;
+}
+.nav-link{
+	font-size: 19px;
+}
+.nav-links{
+	position:absolute;
+	left:70%;
+	width:460px;
+	display:flex;
+	height:80px;
+	justify-content:center;
+    align-items:center;
+}
+
+.nav-links a{
+	/* color:rgb(255,215,0); */
+	color:white;
+	list-style-type:none;
+	padding:5px;
+	margin-right:60px;
+	text-decoration:none;
+	padding-bottom:0px;
+}
+.nav-links .active{
+	color:white;
+	/* text-decoration:underline;
+	text-decoration-color: 	rgb(255,215,0);
+	 */
+	 border-bottom:1px solid rgb(255,215,0);
+}
+
+.nav-links a:hover{
+	text-decoration:none;
+	color:white;
+	border-bottom:1px solid rgb(255,215,0);
+	transition-delay:0.08s;
+	left:3px;
+	top:2px;
+}
+
+/* bottom section container  */
+
+.bottom-tag{
+position:relative;	
+height:50%;
+width:100%;
+background-color:grey;	
+}
+
+.col1{
+	display:flex;
+	width:100%;
+	height:93%;
+	/* background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ; */
+	background-color:black;
+	background-position:center;
+	background-repeat:no-repeat;
+	margin:0px;
+	padding:0px;
+	position:relative;
+}
+.row1{
+	padding:0px;
+	margin:0px;
+	color:white;
+	height:86%;
+	width:12%;
+    top:26px;
+    left:260px
+}
+span{
+	color:white;
+}
+.row3{
+	z-index:1;
+	color:white;
+	height:36%;
+	width:12%;
+	top:148px;
+	left:440px;
+}
+.row2{
+	top:25px;
+	color:white;
+	height:84%;
+	width:12%;
+	left:470px;
+}
+.row4{
+	color:white;
+	width:19%;
+	left:600px;
+}
+.span-tag{
+	color:white;
+	border:1px solid yellow;
+	height:30px;
+	width:40px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border: 1px solid #535353;
+    background: #2D2C2C;
+    margin-right:5px;
+}
+li{
+	list-style-type:none;
+	padding:7px;
+}
+.links{
+	border:1px solid #535353;
+	padding:7px;
+	color:rgb(239, 224, 120);
+	text-decoration:none;
+	background:#2D2C2C;
+	width:100px;
+	margin-bottom:5px;
+	display:flex;
+	justify-content:center;
+	margin-top:7px;
+	margin-right:6px;
+}
+/* end of bottom section */
+
+/* new bottom section */
+
+.cols1{
+	display:flex;
+	width:100%;
+	height:93%;
+	/* background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7))  *//* ,url(../images/background8.png) */;
+	background-position:center;
+	background-color:black;
+	margin:0px;
+	padding:0px;
+}
+.r1{
+	display:flex;
+	justify-content:center;
+	left:50px;
+	width:33%;
+	color:white;
+    top:26px;
+}
+.rows1{
+	width:150px;
+	height:247px;
+	left:-70px;
+}
+.flex-box1{
+	display:flex;
+	margin:0px;
+	padding:0px;
+	top:-5px;
+}
+.flex-box2{
+	display:flex;
+	margin:0px;
+	padding:0px;
+	top:-10px;
+}
+.rows4{
+	left:50px;
+}
+.r2{
+	left:50px;
+	display:flex;
+	justify-content:center;
+	top:25px;
+	color:white;
+	height:84%;
+	width:33%;
+}
+.rows2{
+	width:330px;
+	top:2px;
+}
+.r4{
+	display:flex;
+	justify-content:center;
+	width:33%;
+	color:white;
+}
+.rows4{
+	
+}
+.image45{
+	margin-left:45px;
+	height:130px;
+	width:160px;
+}
+
+/* end of new bottom section */
+
+/* bootstrap products coursel */ 
+div {
+     display: block;
+     position: relative;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box
+ }
+
+ .bbb_viewed {
+     padding-top: 51px;
+     padding-bottom: 60px;
+     background: #eff6fa
+ }
+
+ .bbb_main_container {
+     background-color: #fff;
+     padding: 11px
+ }
+
+ .bbb_viewed_title_container {
+     border-bottom: solid 1px #dadada
+ }
+
+ .bbb_viewed_title {
+     margin-bottom: 16px;
+     margin-top: 8px
+ }
+
+ .bbb_viewed_nav_container {
+     position: absolute;
+     right: -5px;
+     bottom: 14px
+ }
+
+ .bbb_viewed_nav {
+     display: inline-block;
+     cursor: pointer
+ }
+
+ .bbb_viewed_nav i {
+     color: #dadada;
+     font-size: 18px;
+     padding: 5px;
+     -webkit-transition: all 200ms ease;
+     -moz-transition: all 200ms ease;
+     -ms-transition: all 200ms ease;
+     -o-transition: all 200ms ease;
+     transition: all 200ms ease
+ }
+
+ .bbb_viewed_nav:hover i {
+     color: #606264
+ }
+
+ .bbb_viewed_prev {
+     margin-right: 15px
+ }
+
+ .bbb_viewed_slider_container {
+     padding-top: 13px
+ }
+
+ .bbb_viewed_item {
+     width: 100%;
+     background: #FFFFFF;
+     border-radius: 2px;
+     padding-top: 25px;
+     padding-bottom: 25px;
+     padding-left: 30px;
+     padding-right: 30px
+ }
+
+ .bbb_viewed_image {
+     width: 150px;
+     height: 150px
+ }
+
+ .bbb_viewed_image img {
+     display: block;
+     max-width: 100%
+ }
+
+ .bbb_viewed_content {
+     width: 100%;
+     margin-top: 25px
+ }
+
+ .bbb_viewed_price {
+     font-size: 16px;
+     color: #000000;
+     font-weight: 500
+ }
+
+ .bbb_viewed_item.discount .bbb_viewed_price {
+     color: #df3b3b
+ }
+
+ .bbb_viewed_price span {
+     position: relative;
+     font-size: 12px;
+     font-weight: 400;
+     color: rgba(0, 0, 0, 0.6);
+     margin-left: 8px
+ }
+
+ .bbb_viewed_price span::after {
+     display: block;
+     position: absolute;
+     top: 6px;
+     left: -2px;
+     width: calc(100% + 4px);
+     height: 1px;
+     background: #8d8d8d;
+     content: ''
+ }
+
+ .bbb_viewed_name {
+     margin-top: 3px
+ }
+
+ .bbb_viewed_name a {
+     font-size: 14px;
+     color: #000000;
+     -webkit-transition: all 200ms ease;
+     -moz-transition: all 200ms ease;
+     -ms-transition: all 200ms ease;
+     -o-transition: all 200ms ease;
+     transition: all 200ms ease
+ }
+
+ .bbb_viewed_name a:hover {
+     color: #0e8ce4
+ }
+
+ .item_marks {
+     position: absolute;
+     top: 18px;
+     left: 18px
+ }
+
+ .item_mark {
+     display: none;
+     width: 36px;
+     height: 36px;
+     border-radius: 50%;
+     color: #FFFFFF;
+     font-size: 10px;
+     font-weight: 500;
+     line-height: 36px;
+     text-align: center
+ }
+
+ .item_discount {
+     background: #df3b3b;
+     margin-right: 5px
+ }
+
+ .item_new {
+     background: #0e8ce4
+ }
+
+ .bbb_viewed_item.discount .item_discount {
+     display: inline-block
+ }
+
+ .bbb_viewed_item.is_new .item_new {
+     display: inline-block
+ }
+ 
+@media only screen and (min-width : 1200px) {
+
+   .bbb_viewed  .container {
+         max-width: 1400px;
+   } 
+
+}
+/* closing bootstrap products coursel */

@@ -1,0 +1,61 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="base::layout(~{::.main-section13})">
+<head>
+<title>My page</title>
+
+</head>
+
+<body>
+
+<div class="main-section13">
+
+<div class="small-container3">
+     <div class="small-container-block">
+      <div class="line-height"></div>
+       <h2 style="color:rgb(239, 224, 120);margin-left:30px;font-weight:bold">CONTACT US</h2>
+     </div>
+</div>
+
+
+<div class="container12">
+<div class="add-section">
+<div class="add-sec" data-aos="fade-right" data-aos-duration="1000">
+<h1 class="heading11" style="margin-bottom:45px">How to Find Us</h1>
+<p class="para4">if you are having any questions, just fill in the contact form, <br>and we will answer you shortly. if you are living nearby.<br> come visit AKS Saddles shop</p>
+
+<h3 style="font-weight:bold;margin-top:20px;margin-bottom:20px">Address:</h3>
+<p class="para6" ><span class="span-tag" style="margin-right:10px"><i class="fas fa-map-marker"></i></span>AKS saddles LLC,<br> sharda media city united arab,<br>122002.
+</p>
+<p class="para6" ><span class="span-tag" style="margin-right:10px"><i class="far fa-envelope"></i></span><a href="#"> abhishek@akssaddles.com</a>
+</p>
+<p class="para6" ><span class="span-tag" style="margin-right:10px"><i class="fas fa-phone-alt"></i></span>+91 9930293900
+</p>
+</div>
+</div>
+<div class="main-form" data-aos="fade-left" data-aos-duration="1500">
+<h1 class="heading11">Get in Touch</h1>
+ <form class="forms" method="post" action="form-submit">
+  <h2 class="heading12">CONTACT</h2>
+  <p class="para5" type="Name:"><input name="name" placeholder="Write your name here.." required></input></p>
+  <p class="para5" type="Email:"><input name="email" placeholder="Let us know how to contact you back.." required></input></p>
+  <p class="para5" type="Message:"><input name="message" placeholder="What would you like to tell us.." required></input></p>
+  <p th:if="${msg}" style="background-color:rgb(100, 201, 97);color:white;height:28px;display:flex;justify-content:center"> <span th:text="${msg}"></span></p><button class="btn-77">Send Message</button>
+  <div class="something-new" style="padding-left:15px;">
+    <span class="fas fa-phone-alt"></span> 9938372889
+    <span class="fa fa-envelope-o"></span> abhishek@akssaddles.com
+  </div>
+</form> 
+</div>
+</div>
+<div style="margin-top:30px" class="map-responsive">
+<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.686850933522!2d55.345497814735275!3d25.24747022635037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d5e7183b853%3A0x75b0f60be66fc131!2sSharjah%20Media%20City%20(Shams)%20-%20Dubai%20Branch!5e0!3m2!1sen!2sin!4v1628607844453!5m2!1sen!2sin" width="1530" height="515" style="border:0;" allowfullscreen="" loading="lazy" ></iframe> -->
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14873.716531593847!2d81.6144673!3d21.2544744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5929a229f1c75%3A0xb28ae30eb6bb813a!2sSharjah%20Media%20City%20(Shams)!5e0!3m2!1sen!2sin!4v1628684126776!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+</div>
+<script>
+
+    $(".nav-link").removeClass("active");
+    $("#contact-tag").addClass("active");
+
+    </script>
+</div>
+</body>
+</html>

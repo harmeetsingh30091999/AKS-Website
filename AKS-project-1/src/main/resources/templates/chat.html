@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+.options_btn{
+border:1px solid black;
+padding:5px 5px;
+background-color:grey;
+color:white;
+margin-top:3px;
+cursor:pointer;
+}
+</style>
+</head>
+<body>
+<h2 style="display:flex;justify-content:center">This is a chat bot</h2>
+<h3 style="margin:8px;">Please tell us how we can help you </h3>
+<h3 style="margin:8px;">What would You want to develop :-</h3>
+<div style="margin:20px 8px;display:flex;flex-direction:column">
+<a onclick="firstfunc()" class="options_btn">Web Application</a>
+<a class="options_btn">Software development</a>
+<a class="options_btn">Graphic Designing</a>
+<a class="options_btn">Mobile App</a>
+<a class="options_btn">Other Queries</a>
+</div>
+<div style="margin: 20px 8px" >
+ <div id="web_content" style="display:none">
+    We design plenty of website such as e-Commerce website, business website, custom webapplication
+ </div>
+  
+</div>
+<script>
+function firstfunc(){
+	console.log("method calls");
+  document.getElementById('web_content').style.display="block";
+}
+  </script>
+</body>
+</html>

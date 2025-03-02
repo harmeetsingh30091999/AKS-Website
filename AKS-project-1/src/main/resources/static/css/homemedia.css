@@ -1,0 +1,153 @@
+@media (max-width: 1210px){
+	.main-section{
+    height: 2357px;
+    }
+    .carousel-caption{
+     position:absolute;
+     margin-bottom: 280px;
+   }
+	.para1{
+	font-size:17px;
+	}
+	.para2{
+	font-size:17px;
+	}
+	.about-container{
+	  height:40%;
+	}
+	.about-content{
+	height:auto;
+	}
+    .my-button{
+    
+    }
+    .content-block{
+     display:block;
+    }
+    .img-wallpaper{
+        width: 50vw;
+        height:50vh;
+    }
+   .carousel-caption h2{
+	 font-size:40px;
+    }
+   .carousel-caption h3{
+	font-size:20px;
+	font-weight:bold;
+    }
+    .carousel-caption a{
+	padding:10px 20px;
+    }
+   .overlay{
+    height:810px;
+    }
+    .banner {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 810px;
+
+}
+@media (max-width: 1100px){
+	.carousel-caption{
+	bottom:100px;
+	}
+}
+@media (max-width: 1000px){
+	.carousel-caption{
+	bottom:100px;
+	}
+	.img-wallpaper {
+    width: 47vw;
+    height: 34vh;
+  }
+  .about-container {
+    height: 1020px;
+}
+}
+@media (max-width: 850px){
+    .img-wallpaper{
+        width: 50vw;
+        height:30vh;
+    }
+    
+	
+.carousel-caption h2{
+font-size:30px;
+}
+.carousel-caption h3{
+	font-size:15px;
+	font-weight:bold;
+}
+.carousel-caption a{
+	padding:10px 20px;
+}
+	
+}
+@media (max-width: 650px){
+	.about-container{
+	    height: 1020px;
+	}
+	 .img-wallpaper{
+        width: 50vw;
+        height:25vh;
+    }
+    .button-container{
+    width:300px;
+    }
+    
+	
+	
+}
+
+@media (max-width: 480px){
+	.img-wallpaper{
+     width: 224px;
+    height: 200px;
+    }
+}
+
+
+@media (max-width: 450px){
+	.carousel-caption h2{
+        font-size:20px;
+}
+	.carousel-caption{
+	margin-bottom:280px;
+	}
+	.about-container{
+	height:1050px;
+	}
+	.img-wallpaper{
+        width: 50vw;
+        height:25vh;
+    }
+	 .button-container{
+    width:200px;
+    }
+    .carousel-caption a{
+	padding:8px 12px;
+}
+.para2{
+	display:none;
+}
+
+.bbb_viewed_price{
+	top:10px;
+}
+.bbb_viewed_name{
+	top:10px;
+}
+}
+@media (min-width: 300px) and (max-width: 420px){
+	
+	.about-container {
+    height: 999px;
+	}
+	.img-wallpaper{
+        width: 45vw;
+        height:20vh;
+    }
+	
+}

@@ -1,0 +1,161 @@
+@media (min-width: 1200px){
+ .container{
+ max-width:1400px;
+ }
+}
+
+@media (max-width: 992px){
+	#navbarNav{
+    position: absolute;
+    top: 90px;
+    z-index: 1;
+    left: 0px;
+    width: 96vw;
+    opacity: 0.8;
+    background-color: rgb(10, 20, 28);
+    }
+}
+
+@media (min-width: 400px) and (max-width: 650px){
+	/*Big smartphones [306px -> 650px]*/
+ 
+ #navbarNav{
+    position: absolute;
+    top: 90px;
+    z-index: 1;
+    left: -10px;
+    width: 96vw;
+    background-color: dark;
+    opacity: 0.8;
+    background: 38, 46, 41;
+    background-color: rgb(10, 20, 28);
+    }
+ .navbar-lname{
+ position:relative;
+ left:-10px;
+ }
+ 
+ /* bottom started */
+ /* .cols1{
+ display:block;
+ height:96%;
+ } 
+ .bottom-tag{
+ height:150%;
+ }
+ .r1{
+ left:15px;
+ width:100%;
+ justify-content:left;
+ }
+ .r2{
+ justify-content:left;
+ height:auto;
+ left:15px;
+ width:100%;
+ }
+ .r4{
+ width:100%;
+ }
+ .flex-box{
+ display:block;
+ } */
+}
+ @media only screen and (max-width: 400px){
+ #navbarNav{
+ top:130px;
+ width: 94vw;
+ }
+ .navbar-lname{
+ position:relative;
+ left:-10px;
+ }
+ 
+ /* bottom started */
+ /* .cols1{
+ display:block;
+ height:96%;
+ } 
+ .bottom-tag{
+ height:150%;
+ }
+ .r1{
+ left:15px;
+ width:100%;
+ justify-content:left;
+ }
+ .r2{
+ justify-content:left;
+ height:auto;
+ left:15px;
+ width:100%;
+ }
+ .r4{
+ width:100%;
+ }
+ .flex-box{
+ display:block;
+ }
+ */ }
+/* new resposive size for bottom section  */
+@media (max-width: 800px){
+	.bottom-tag{
+	height:1015px;
+	}
+	.cols1{
+	display:block;
+	height:97%;
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+	}
+	.r2{
+	height:32%;
+	left:50px;
+	width:161px;
+	}
+	.r1{
+	display:block
+	}
+	.flex-box1{
+	display:block;
+	}
+	.flex-box2{
+	display:block;
+	}
+	.r4{
+	width:50%;
+	margin-top:26px;
+	}
+@media (max-width: 580px){
+	.r4{
+	left:50px;
+	}
+}	
+}
+
+
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+	 .image45{   
+	 height: 155px;
+	} 
+	.r4{
+	width: 100%;
+	left:0px;
+	}
+ .navbar-lname{
+ position:relative;
+ left:0px;
+ }
+ .logo-image{
+ margin:0px;
+ }
+/*  .bottom-tag{
+ height: 110%;
+ } */
+}
+@media only screen and (max-width: 340px){
+	#navbarNav{
+ top:150px;
+ width: 94vw;
+ }
+}

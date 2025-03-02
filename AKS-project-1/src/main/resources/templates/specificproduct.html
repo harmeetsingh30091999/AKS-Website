@@ -1,0 +1,63 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="base::layout(~{::.main-section11})">
+
+<head>
+<title>my first website</title>
+</head>
+<body>
+
+  <div class="main-section11">
+  <div class="small-container">
+   <div class="small-container-block">
+   <div class="line-height"></div>
+   <h2 style="color:rgb(239, 224, 120);margin-left:30px;text-transform:uppercase;font-weight:bold">Equestrain Boots</h2>
+   </div>
+   </div>
+   <div class="main-container1">
+   <div class="small-container1">
+  <img class="image1" th:src="@{'/images/'+${product.productname}}">
+  </div>
+  <div class="small-container2">
+  <table class="table table-striped table-hover">
+  <thead>
+    <tr>
+      <th scope="col"><span style="color:red;font-size:23px" th:text="${product.productCode}"></span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row" >Product Type</th>
+      <td style="text-align:center"><span th:text="${product.productType}" style="color:black"></span></td>
+    </tr>
+    <tr>
+      <th scope="row" >Brand</th>
+      <td style="text-align:center"><span th:text="${product.brand}" style="color:black"></span></td>
+    </tr>
+    <tr>
+      <th scope="row" >Size</th>
+      <td style="text-align:center;color:black"><span style="color:black">-</span></td>
+    </tr>
+    <tr>
+      <th scope="row" >Body Features</th>
+      <td style="text-align:center;color:black"><span style="color:black">-</span></td>
+    </tr>
+    <tr>
+      <th scope="row" >Body material</th>
+      <td style="text-align:center;color:black"><span th:text="${product.bodymaterial}" style="color:black"></span></td>
+    </tr>
+    <tr>
+      <th scope="row">Color</th>
+      <td style="text-align:center;color:black"><span th:text="${product.color}" style="color:black"></span></td>
+    </tr>
+  </tbody>
+</table>
+<h3>Are you interested in this product</h3>
+<button style="background-color:white;border:1px solid red;padding:5px">Enquire now</button> 
+<a style="background-color:white;border:1px solid red;padding:5px;color:black;padding-left:8px;padding-right:8px" href="/Product">back</a>
+  </div>
+  </div>
+   <script>
+    $(".nav-link").removeClass("active");
+    $("#product-tag").addClass("active");
+    </script>
+  </div>
+</html>
